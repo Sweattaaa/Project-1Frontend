@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" size="32x32" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin-top: 15vh;
+            padding: 0px;
+            font-family: 'Oswald', sans-serif;
+            background-color: hsl(217, 54%, 11%);
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+        }
+
+        p{
+            font-size: 18px;
+            color: hsl(215, 51%, 70%);
+            z-index: 1;
+        }
+
+        div{
+            width: 350px;
+            height: 600px;
+            padding: 0px;
+            margin: 10px;
+            background-color: hsl(216, 50%, 16%);
+            box-shadow: 5px 5px 60px 60px hsl(217, 54%, 8%);
+            border-radius: 25px;
+            flex-direction: column;
+            text-align: center;
+
+        }
+
+        #immagine{
+            position: relative;
+            margin-top: 25px;
+            border-radius: 25px;
+        }
+
+        .flex-start{
+            margin-left: 2vw;
+            font-size: 18px;
+            color: white;
+            text-align: start;
+            margin-left: 2vw;
+            margin-right: 3vw;
+        }
+
+        .flex-start2{
+            margin-left: 2vw;
+            margin-right: 3vw;
+            color: hsl(195, 22%, 47%);
+            text-align: start;
+            margin-left: 2vw;
+            margin-right: 3vw;
+        }
+
+        .color-cyan{
+            color: hsl(178, 100%, 50%);
+        }
+        
+        .color-grey{
+           color: hsl(195, 22%, 47%);
+        }
+
+        .ETH{
+            display: inline-flex;
+            gap: 10px;
+        }
+
+        .icon{
+            width: 32px;
+            height: 32px;
+            position: relative;
+            margin-top: 15px;
+        }
+
+        .start{
+            margin-right: 4.5vw;
+        }
+
+        hr{
+            margin-right: 3vw;
+            margin-left: 3vw;
+            background-color: hsl(195, 22%, 47%);
+        }
+
+        .icon-view{
+            z-index: 999;
+            position: absolute;
+            bottom: 37vh;
+            right: 46.5vw;
+
+        
+        }
+
+        
+
+        .avatar{
+            width: 32px;
+            height: 32px;
+            float: left;
+            margin-top: 0.6vh;
+            border: 1px solid white;
+            border-radius: 50px;
+            margin-left: 2vw;
+            display: inline-flex;
+
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color:hsl(178, 100%, 50%);
+            cursor: url(GLOVES-CURSOR1.png), auto;
+
+        }
+
+        #immagine:hover
+        {
+           
+            cursor: url(GLOVES-CURSOR1.png), auto;
+            
+        } 
+
+    
+        .align{
+            margin-right: 5vw;
+
+        }
+
+        .title:hover{
+            cursor: url(GLOVES-CURSOR1.png), auto;
+            color:hsl(178, 100%, 50%);
+        }
+
+        .ethereumm{
+            width: 22px;
+            height: 32px;
+        }
+
+        
+    </style>
+    <title>Frontend Mentor | NFT preview card component</title>
+</head>
+<body>
+    <div id="container">
+        <nav>
+        <img src="image-equilibrium.jpg" id="immagine" alt="icon ethereum" width="300" height="300">
+        <img src="icon-view.svg" alt="icon view" class="icon-view" hidden="hidden">
+    </nav>
+        <p class="flex-start title"><span>Equilibrium #3429</span></p>
+        <p class="flex-start2">Our Equilibrium collection promotes balance and calm.</p>
+        <span class="ETH">
+           
+        <img class="icon ethereumm" src="icon-ethereum.svg" alt="image ethereum">
+        <p class="color-cyan start "><span>0.041 ETH</span></p>
+        <img class="icon end" src="icon-clock.svg" alt="image clock">
+        <p class="color-grey end"><span>3 Days left</span></p>
+        </span>
+
+        <hr>
+        <img class="avatar"src="image-avatar.png"  alt="image avatar" >
+        <p class = "align" style="color: hsl(195, 22%, 47%)">Creation of <a href="https://www.frontendmentor.io/profile/Sweattaaa">  Sweattaaa</a></p>
+
+
+
+    </div>
+
+    <script>
+            
+        </script>
+</body>
+</html>
