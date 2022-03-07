@@ -1,5 +1,6 @@
 body{
     margin-top: 15vh;
+    margin-bottom: 15vh;
     padding: 0px;
     font-family: 'Oswald', sans-serif;
     background-color: hsl(217, 54%, 11%);
@@ -7,6 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
+
 
 }
 
